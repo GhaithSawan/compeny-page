@@ -1,0 +1,765 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui !important;
+    box-sizing: border-box;
+    scroll-behavior: smooth
+}
+
+body {}
+
+.main {
+    width: 100%;
+    height: max-content;
+    background: linear-gradient(270deg, rgba(118, 48, 148, 1) 56%, rgba(216, 93, 228, 1) 100%);
+    position: relative;
+}
+
+/* .navbar {
+    position: fixed;
+    width: 95%;
+    margin: auto;
+
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 35%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+
+
+.navbar nav {
+    width: 60%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar nav ul {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: space-evenly;
+}
+
+.navbar nav ul li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+.navbar nav ul li a:hover {
+    color: rgb(255, 178, 252);
+}
+
+
+.navbar nav ul li a {
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+} */
+.navbar ul li a:hover {
+    color: rgb(255, 178, 252) !important;
+}
+
+.navbar {
+    background: linear-gradient(270deg, rgba(118, 48, 148, 1) 56%, rgba(216, 93, 228, 1) 100%);
+
+}
+
+.logo {
+    width: 30%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 25px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.logo img {
+    height: 80%;
+    cursor: pointer;
+}
+
+.my-nav {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+
+.my-nav li {
+    margin-right: 40px;
+
+}
+
+.my-nav li a {
+    font-size: 22px;
+    color: white !important;
+}
+
+.my-nav li:last-child {
+    margin-right: 7%;
+}
+
+
+
+
+
+
+
+/* nav end__________ */
+.continer-main {
+    height: 80% !important;
+    width: 80% !important;
+    display: flex !important;
+    margin: auto !important;
+
+}
+
+.leftthings-main {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-bottom: 40px !important;
+}
+
+@media screen and (max-width:755px) {
+    .leftthings-main .text-main {
+        text-align: center;
+    }
+
+    .leftthings-main {
+        align-items: center;
+    }
+
+    .wave1 {
+        display: none;
+    }
+}
+
+@media screen and (max-width:1115px) {
+    .wave1 {
+        display: none;
+    }
+}
+
+
+.leftthings-main .text-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+}
+
+.leftthings-main .text-main h1 {
+    font-size: 74px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.leftthings-main .text-main p {
+    font-size: 30px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.leftthings-main span {
+    font-size: 35px;
+    font-weight: 500;
+    width: max-content;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+}
+
+.leftthings-main span a {
+    width: max-content;
+    height: max-content;
+    transition: .8s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+
+.leftthings-main span img {
+    height: 40px;
+    margin: 0 10px 0 0;
+
+}
+
+.rotat:hover .rotat-of {
+    transform: rotate(350deg);
+}
+
+
+
+.rightthings-main {
+    width: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px !important;
+}
+
+.rightthings-main img {
+    width: 100%;
+}
+
+.wave1 {
+    width: 100%;
+    height: 15%;
+    margin-top: 2px;
+    position: absolute;
+    bottom: 0%;
+    left: 0;
+}
+
+/* services______________ */
+.services {
+    height: max-content;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+
+.continer-services-aboutus {
+    width: 80%;
+    margin: auto;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.titlee-section {
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.titlee-section span {
+    width: 100px;
+    height: 5px;
+    display: inline-block;
+    transition: .5s all cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    background: linear-gradient(270deg, rgba(118, 48, 148, 1) 56%, rgba(216, 93, 228, 1) 100%);
+
+
+}
+
+.titlee-section:hover span {
+    width: 90%;
+
+}
+
+.allcard-services {
+    width: 100%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    padding: 5px;
+
+}
+
+@media screen and (max-width: 700px) {
+    .allcard-services {
+        flex-wrap: wrap;
+    }
+}
+
+.MyCard {
+    height: 400px;
+    width: 300px;
+    padding: 10px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    border-bottom: 0px rgb(118, 48, 148) solid;
+    border-top: 0px rgb(118, 48, 148) solid;
+    transition: all .1s ease-in-out;
+    margin-bottom: 20px;
+}
+
+.MyCard:hover {
+    border-bottom: 5px rgb(118, 48, 148) groove;
+    border-top: 5px rgb(118, 48, 148) groove;
+    background-color: #fafcfe;
+
+}
+
+.allcard-services .cardimg {
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.allcard-services img {
+    width: 100%;
+}
+
+/* aboutus_________ */
+
+.about-us {
+    height: max-content;
+    width: 100%;
+    background-color: #f8f9fa;
+}
+
+.leftthings-aboutus {
+    display: flex;
+    width: 70%;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
+.content-aboutus {
+    width: 100%;
+    margin-top: 30px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+@media screen and (max-width: 980px) {
+    .leftthings-aboutus {
+        align-items: center;
+
+    }
+
+    .leftthings-aboutus h1 {
+        text-align: center;
+    }
+
+
+}
+
+
+.leftthings-aboutus h1 {
+    font-size: 50px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.leftthings-aboutus ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftthings-aboutus ul li {
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    list-style: inside;
+    line-height: 40px;
+
+}
+
+
+.rightthings-abouts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.rightthings-abouts img {
+    width: 100%;
+}
+
+.content-aboutus {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* aboutus2_____________ */
+.about-us2 {
+    margin-top: 20px;
+
+}
+
+.continer-services-aboutus2 {
+
+    width: 1200px;
+    height: max-content;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+
+.content-aboutus2 {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    justify-content: space-evenly !important;
+    gap: 5px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.person {
+    overflow: auto !important;
+    height: max-content !important;
+    flex-direction: column !important;
+    margin-top: 100px !important;
+    border-left: 0px groove rgb(118, 48, 148);
+    border-right: 0px groove rgb(118, 48, 148);
+    transition: ease-in-out .1s all;
+    padding: 5px;
+
+}
+
+.person:hover {
+    border-left: 5px rgb(118, 48, 148) groove;
+    border-right: 5px rgb(118, 48, 148) groove;
+    background-color: #fafcfe;
+
+
+
+}
+
+
+.person .infermation {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.person .name {
+    display: flex;
+    font-size: 20px;
+    font-weight: 300;
+    width: 100%;
+    align-items: center;
+
+}
+
+.person .name img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+/* add_________ */
+
+.add {
+    width: max-content;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+    background-color: #fafcfe;
+    padding: 20px;
+    border-radius: 73% 27% 54% 65% / 43% 64% 36% 57%;
+}
+
+.add h1 {
+    font-size: 35px;
+
+    color: #9d3395;
+}
+
+.add input {
+    width: 300px;
+    height: 50px;
+    outline: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    border: 2px #9d3395 groove;
+    padding: 5px 10px;
+
+
+}
+
+.add-a {
+    color: #9d3395;
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-size: 25px;
+    text-decoration: none;
+    transition: all .2s ease-in-out;
+
+
+}
+#addbtn{
+    outline: none !important;
+    border: none !important;
+    background-color: transparent;
+
+}
+
+.add-a:hover {
+    color: #fff;
+    background: linear-gradient(270deg, rgba(118, 48, 148, 1) 56%, rgba(216, 93, 228, 1) 100%);
+}
+
+.chexdiv {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+    height: max-content;
+
+}
+
+.chexdiv label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    color: #9d3395;
+    font-size: 25px;
+    margin-right: 5px;
+
+}
+
+.chexdiv input {
+
+    width: 25px;
+}
+
+.checkboxdiv {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+
+/* contact________ */
+.contact {
+    width: 100%;
+    height: max-content;
+    background-color: #f8f9fa;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+.heightthings {
+    width: 100%;
+    margin: 10px auto 180px auto !important;
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.heightthings .icons-social {
+    width: 50%;
+    height: max-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width:370px) {
+    .heightthings .icons-social {
+        width: 100%;
+    }
+
+}
+
+.heightthings .icons-social a img {
+    width: 90px;
+}
+
+.dawnthings {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin-bottom: 70px !important;
+
+}
+
+.allparts {
+
+    width: 90% !important;
+    height: 75% !important;
+    margin: 0 auto !important;
+    display: flex !important;
+    align-items: flex-start !important;
+    flex-wrap: wrap !important;
+    justify-content: space-evenly !important;
+    flex-wrap: wrap !important;
+
+}
+
+
+.part {
+    width: 30%;
+    height: 90%;
+    text-align: center;
+    padding: 20px;
+    border-left: 0px groove rgb(118, 48, 148);
+    transition: ease-in-out .1s all;
+    margin-bottom: 10px !important;
+}
+
+.part:hover {
+    border-left: 5px groove rgb(118, 48, 148);
+    background-color: #fcfcfc;
+
+}
+
+.part1 .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+
+
+}
+
+.part1 .title img {
+    width: 40px;
+}
+
+.part2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.part2 .fatherofimgs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.part2 .myicon {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: max-content;
+    margin-top: 10px;
+
+
+
+}
+
+.part2 .myicon h1 {
+    font-size: 20px;
+}
+
+
+.part2 .myicon img {
+
+    width: 70px;
+    margin-right: 5px;
+}
+
+.part3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+
+}
+
+.part3 a {
+    background-color: #f8f9fa;
+    color: black;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 20px;
+    transition: all .5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+    text-decoration: none;
+
+}
+
+.part3 a:hover {
+    color: red;
+}
+
+.footer {
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    background-color: #9d3395;
+    font-size: 20px;
+}
+.footer p{
+    margin: 0;
+}
+.scrol{
+    visibility: hidden;
+    position: fixed;
+    right: 20px;
+    bottom: 15px;
+    border-radius: 50%;
+    transition: all .2s ease-in-out;
+    cursor: pointer;
+    width: 44px;
+
+}
+.scrol img{
+    width: 100%;
+
+}
+.scrol:hover{
+    bottom: 24px;
+}
+
